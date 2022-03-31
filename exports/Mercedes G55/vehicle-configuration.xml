@@ -1,0 +1,53 @@
+<vds-vehicle name="Mercedes G55">
+	<resources>
+	</resources>
+	<chassis>
+	</chassis>
+	<drivetrain>
+		<engine 
+			 name="Generic Inline-4" model="engine" mass="320" cylinders="4" displacement="2" 
+			 idle="800" redline="8000" maximum="8500" position="0.2" 
+			 torque="0,100,150,195,200,210,235,300,340,190,120,60" forced-induction="true" 
+			 induction-type="single-turbo" induction-curve="1,1.1,1.4,1.8,2,2,2.1,1.7,1.5" 
+		/>
+		<transmission 
+			 name="Generic 5-speed Manual" model="transmission" mass="200" type="manual" gear-ratios="-4.3,4.1,2.57,1.86,1,0.87" 
+		/>
+	</drivetrain>
+	<wheels>
+	</wheels>
+	<body>
+		<panel-group id="hood">
+		</panel-group>
+		<panel-group id="roof">
+		</panel-group>
+		<panel-group id="windshields">
+		</panel-group>
+		<panel-group id="doors">
+		</panel-group>
+		<panel-group id="bumpers">
+			<panel id="panel-6FEC3513-3619-470D-B692-90AFC8B6DF86" 
+			 mat-id="-1" mass="167.88850374527453" object="panel-bumpers-0" 
+/>
+			<panel id="panel-03CD8AA3-21A6-4212-BCF3-31F3B31EF1EF" 
+			 mat-id="-1" mass="42.92021891419522" object="panel-bumpers-1" 
+/>
+			<panel id="panel-6B2E1A9C-D0B1-4BF2-B282-68207FF0B607" 
+			 mat-id="-1" mass="295.30345580323444" object="panel-bumpers-2" 
+/>
+			<panel id="panel-FC943688-A28A-49E1-896C-D1D6D67BE160" 
+			 mat-id="-1" mass="36.35234737345976" object="panel-bumpers-3" 
+/>
+			<panel id="panel-1689549B-72A6-4B3C-90EF-362C0192940C" 
+			 mat-id="-1" mass="36.35234737345999" object="panel-bumpers-4" 
+/>
+		</panel-group>
+		<panel-group id="quarter-panels">
+		</panel-group>
+	</body>
+	<physics>
+		<aerodynamics frontal-area="19.917540330642062" drag-coefficient="0.4539720409512359" downforce="0" lift="0" />
+		<center-of-gravity x="39.27047897020657" y="15.56430141305645" z="0.3031222730301682" />
+		<weight distribution="50:50" total-mass="1316.8633384066477" />
+	</physics>
+</vds-vehicle>

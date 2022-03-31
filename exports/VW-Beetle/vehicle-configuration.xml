@@ -1,0 +1,47 @@
+<vds-vehicle name="VW-Beetle">
+	<resources>
+	</resources>
+	<chassis>
+	</chassis>
+	<drivetrain>
+		<engine 
+			 name="Generic Inline-4" model="engine" mass="320" cylinders="4" displacement="2" 
+			 idle="800" redline="8000" maximum="8500" position="0.2" 
+			 torque="0,100,150,195,200,210,235,300,340,190,120,60" forced-induction="true" 
+			 induction-type="single-turbo" induction-curve="1,1.1,1.4,1.8,2,2,2.1,1.7,1.5" 
+		/>
+		<transmission 
+			 name="Generic 5-speed Manual" model="transmission" mass="200" type="manual" gear-ratios="-4.3,4.1,2.57,1.86,1,0.87" 
+		/>
+	</drivetrain>
+	<wheels>
+	</wheels>
+	<body>
+		<panel-group id="hood">
+		</panel-group>
+		<panel-group id="roof">
+		</panel-group>
+		<panel-group id="windshields">
+		</panel-group>
+		<panel-group id="doors">
+		</panel-group>
+		<panel-group id="bumpers">
+			<panel id="panel-1BF665C3-354F-4105-B1E3-4833C72A9E11" 
+			 mat-id="-1" mass="160.54960169791434" object="panel-bumpers-0" 
+/>
+			<panel id="panel-E52A29F9-C289-4603-BCBF-427B2DFE2889" 
+			 mat-id="-1" mass="16.722302255428147" object="panel-bumpers-1" 
+/>
+			<panel id="panel-D25B38C6-8078-4E04-AE18-1B4702BB9883" 
+			 mat-id="-1" mass="178.48364802489945" object="panel-bumpers-2" 
+/>
+		</panel-group>
+		<panel-group id="quarter-panels">
+		</panel-group>
+	</body>
+	<physics>
+		<aerodynamics frontal-area="10.78324964219194" drag-coefficient="0.33521522354516103" downforce="0" lift="0" />
+		<center-of-gravity x="54.081546332844795" y="10.64108169358219" z="0.1527107099872593" />
+		<weight distribution="50:30:20" total-mass="573.2724443642063" />
+	</physics>
+</vds-vehicle>
